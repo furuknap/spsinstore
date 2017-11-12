@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup
+    Id="SPSINCentralAdministration"
+    Location="Microsoft.SharePoint.Administration.Applications"
+    Title="SP SIN Store"
+    Description="Management of SP SIN Store"
+    Sequence="100" />
+  <CustomAction
+    Id="SPSINERCreateRepository"
+    GroupId="SPSINCentralAdministration"
+    Location="Microsoft.SharePoint.Administration.Applications"
+    Sequence="10"
+    Title="SP SIN Store Settings">
+    <UrlAction
+      Url="/_admin/SPSINStore/Settings.aspx" />
+  </CustomAction>
+
+  <Control ControlAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+           ControlClass="SPSIN.Store.Admin.SPSINStoreCAActionsIconFix"
+           Id="AdditionalPageHead"/>
+</Elements>

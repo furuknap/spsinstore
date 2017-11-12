@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\GAC\SPSIN.Store.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\GAC\SPSIN.Store.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\GAC\SPSIN.Store.PackageInstallation.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\GAC\SPSIN.Store.PackageInstallation.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\obj\Debug\SPSIN.Store.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SPSINStore\obj\Debug\SPSIN.Store.pdb

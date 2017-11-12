@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="02610379-242b-493b-b41b-2dc321815f07"
+          Title="SPSINStoreRepository"
+          Description="Description for SPSINStoreRepository"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Farm"
+          DefaultResourceFile="core"
+          ReceiverAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+          ReceiverClass="SPSIN.Store.EventHandlers.Features.SPSINStoreRepositoryReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+  <Properties>
+    <Property Key="SPSIN_SINStoreRepository_Assembly"
+              Value="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"/>
+    <Property Key="SPSIN_SINStoreRepository_Class"
+              Value="SPSIN.Store.SPSINStoreRepository"/>
+  </Properties>
+</Feature>

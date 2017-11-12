@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Title="SP SIN App Store Settings"
+                Location="Microsoft.SharePoint.SiteSettings"
+                GroupId="SPSIN"
+               >
+    <UrlAction Url="~site/_layouts/SPSIN/Store/Settings.aspx"/>
+  </CustomAction>
+</Elements>

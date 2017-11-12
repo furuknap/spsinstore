@@ -1,0 +1,192 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B253577-A7C9-4F5E-AA97-50030FE84BEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPSIN.Store</RootNamespace>
+    <AssemblyName>SPSIN.Store</AssemblyName>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SPSINStore.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Setup\2007DLL\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="SPSIN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=29a1bc68ea6f4b3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SPSIN\SPSIN\GAC\SPSIN.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PackageRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreAppActivationSINCycle\AppActivationSINCycle.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreAppActivationSINCycle\SPSINStoreAppActivationSINCycleReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreCAActions2007\SPSINStoreCAActions2007Receiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreCAActions2010\SPSINStoreCAActions2010Receiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreCAActions2010\SPSINStoreCAActionsIconFix.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreCentralAdminSetup\SPSINStoreCentralAdminSetupReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreFeatureMenu\FeatureMenu.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreFeatureMenu\SPSINStoreFeatureMenuReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreRepository\SPSINStoreRepository.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreRepository\SPSINStoreRepositoryReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreSetupDelegateControl\SPSINStoreSetupDelegateControlReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\SPSINStoreSetup\SPSINStoreSetupReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\ConfigureInstall.aspx.cs">
+      <DependentUpon>ConfigureInstall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\ConfigureInstall.aspx.designer.cs">
+      <DependentUpon>ConfigureInstall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Install.aspx.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Install.aspx.designer.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\SetupSPSINStore.aspx.cs">
+      <DependentUpon>SetupSPSINStore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\SetupSPSINStore.aspx.designer.cs">
+      <DependentUpon>SetupSPSINStore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\StoreFront.aspx.cs">
+      <DependentUpon>StoreFront.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\StoreFront.aspx.designer.cs">
+      <DependentUpon>StoreFront.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SPSINStoreLayoutsPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SPSINStoreUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manifest.Config" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreAppActivationSINCycle\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreAppActivationSINCycle\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCAActions2007\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCAActions2007\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCAActions2010\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCAActions2010\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCentralAdminSetup\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreCentralAdminSetup\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreFeatureMenu\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreFeatureMenu\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreRepository\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreRepository\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreSetupDelegateControl\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreSetupDelegateControl\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreSetup\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\SPSINStoreSetup\feature.xml" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\ConfigureInstall.aspx" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Install.aspx" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\Settings.aspx" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\SetupSPSINStore.aspx" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\StoreFront.aspx" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\StoreFront.css" />
+    <Content Include="SharePointRoot\Template\LAYOUTS\SPSIN\Store\StoreFront.js" />
+    <None Include="SPSINStore.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppPackageInstaller\AppPackageInstaller.csproj">
+      <Project>{2484ED65-B233-460B-8435-4A34C2D18F50}</Project>
+      <Name>AppPackageInstaller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FarmPackageInstaller\FarmPackageInstaller.csproj">
+      <Project>{390F3107-36AF-4DAD-87CB-E9821DC97E4C}</Project>
+      <Name>FarmPackageInstaller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PackageInstallation\PackageInstallation.csproj">
+      <Project>{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}</Project>
+      <Name>PackageInstallation</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SandboxPackageInstaller\SandboxPackageInstaller.csproj">
+      <Project>{82DE0824-CB0A-47D2-A07D-6D977E7B5382}</Project>
+      <Name>SandboxPackageInstaller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SINPackageInstaller\SINPackageInstaller.csproj">
+      <Project>{6D48D12B-D4C7-494D-A8F8-78A140110450}</Project>
+      <Name>SINPackageInstaller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GAC\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51651</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

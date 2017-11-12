@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPSINStore", "SPSINStore\SPSINStore.csproj", "{1B253577-A7C9-4F5E-AA97-50030FE84BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmPackageInstaller", "FarmPackageInstaller\FarmPackageInstaller.csproj", "{390F3107-36AF-4DAD-87CB-E9821DC97E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageInstallation", "PackageInstallation\PackageInstallation.csproj", "{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxPackageInstaller", "SandboxPackageInstaller\SandboxPackageInstaller.csproj", "{82DE0824-CB0A-47D2-A07D-6D977E7B5382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPackageInstaller", "AppPackageInstaller\AppPackageInstaller.csproj", "{2484ED65-B233-460B-8435-4A34C2D18F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINPackageInstaller", "SINPackageInstaller\SINPackageInstaller.csproj", "{6D48D12B-D4C7-494D-A8F8-78A140110450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B253577-A7C9-4F5E-AA97-50030FE84BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B253577-A7C9-4F5E-AA97-50030FE84BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B253577-A7C9-4F5E-AA97-50030FE84BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B253577-A7C9-4F5E-AA97-50030FE84BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390F3107-36AF-4DAD-87CB-E9821DC97E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390F3107-36AF-4DAD-87CB-E9821DC97E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390F3107-36AF-4DAD-87CB-E9821DC97E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390F3107-36AF-4DAD-87CB-E9821DC97E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7E0A4F-4F95-4769-91AD-B74A79E1C831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DE0824-CB0A-47D2-A07D-6D977E7B5382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DE0824-CB0A-47D2-A07D-6D977E7B5382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DE0824-CB0A-47D2-A07D-6D977E7B5382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DE0824-CB0A-47D2-A07D-6D977E7B5382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2484ED65-B233-460B-8435-4A34C2D18F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2484ED65-B233-460B-8435-4A34C2D18F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2484ED65-B233-460B-8435-4A34C2D18F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2484ED65-B233-460B-8435-4A34C2D18F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D48D12B-D4C7-494D-A8F8-78A140110450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D48D12B-D4C7-494D-A8F8-78A140110450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D48D12B-D4C7-494D-A8F8-78A140110450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D48D12B-D4C7-494D-A8F8-78A140110450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

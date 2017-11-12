@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="718bacd1-d7e4-4dab-824f-251409a5cadd"
+          Title="SPSINStoreFeatureMenu"
+          Description="Description for SPSINStoreFeatureMenu"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Farm"
+          ActivateOnDefault="TRUE"
+          DefaultResourceFile="core"
+          ReceiverAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+          ReceiverClass="SPSIN.Store.EventHandlers.Features.SPSINStoreFeatureMenuReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

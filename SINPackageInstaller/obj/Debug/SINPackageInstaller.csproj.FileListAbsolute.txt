@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\bin\Debug\SINPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\bin\Debug\SINPackageInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\obj\Debug\SINPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SINPackageInstaller\obj\Debug\SINPackageInstaller.pdb

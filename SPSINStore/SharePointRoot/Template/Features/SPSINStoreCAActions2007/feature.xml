@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="5c87f143-910f-4bde-a0c0-a474f8813880"
+          Title="SPSINStoreCAActions2007"
+          Description="Description for SPSINStoreCAActions2007"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+          ReceiverClass="SPSIN.Store.EventHandlers.Features.SPSINStoreCAActions2007Receiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

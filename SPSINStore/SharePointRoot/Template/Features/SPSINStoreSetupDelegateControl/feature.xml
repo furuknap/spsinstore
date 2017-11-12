@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="64596318-34d9-4a37-a9ec-3ce30f5e1af6"
+          Title="SPSINStoreSetupDelegateControl"
+          Description="Description for SPSINStoreSetupDelegateControl"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+          ReceiverClass="SPSIN.Store.EventHandlers.Features.SPSINStoreSetupDelegateControlReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

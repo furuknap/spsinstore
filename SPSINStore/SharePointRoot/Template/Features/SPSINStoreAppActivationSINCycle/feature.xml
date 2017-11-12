@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="aaca46ae-60b0-4f1b-b8b8-28f958eb34f5"
+          Title="SPSINStoreAppActivationSINCycle"
+          Description="Description for SPSINStoreAppActivationSINCycle"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+  <Properties>
+    <Property Key="SPSIN_SINCycleReceiver_Assembly"
+              Value="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"/>
+    <Property Key="SPSIN_SINCycleReceiver_Class"
+              Value="SPSIN.Store.AppActivationSINCycle"/>
+    <Property Key="SPSIN_SINCycleReceiver_Sequence"
+              Value="1"/>
+  </Properties>
+
+</Feature>
