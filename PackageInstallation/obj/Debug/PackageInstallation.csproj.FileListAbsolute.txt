@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\bin\Debug\SPSIN.Store.PackageInstallation.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\bin\Debug\SPSIN.Store.PackageInstallation.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\bin\Debug\SPSIN.Store.PackageInstallation.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\obj\Debug\SPSIN.Store.PackageInstallation.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\PackageInstallation\obj\Debug\SPSIN.Store.PackageInstallation.pdb

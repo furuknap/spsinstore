@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\bin\Debug\SPSIN.Store.FarmPackageInstaller.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\bin\Debug\SPSIN.Store.FarmPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\bin\Debug\SPSIN.Store.FarmPackageInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\obj\Debug\SPSIN.Store.FarmPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\FarmPackageInstaller\obj\Debug\SPSIN.Store.FarmPackageInstaller.pdb
