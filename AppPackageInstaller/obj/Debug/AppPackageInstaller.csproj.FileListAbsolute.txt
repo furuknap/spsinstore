@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\bin\Debug\SPSIN.Store.AppPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\bin\Debug\SPSIN.Store.AppPackageInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\obj\Debug\SPSIN.Store.AppPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\AppPackageInstaller\obj\Debug\SPSIN.Store.AppPackageInstaller.pdb
