@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup
+    Id="SPSINCentralAdministration"
+    Location="Microsoft.SharePoint.Administration.ApplicationManagement"
+    Description="Management of SP SIN Store"
+    Title="SP SIN Store"
+    Sequence="100" />
+</Elements>

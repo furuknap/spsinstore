@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control ControlAssembly="SPSIN.Store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d8aa0390f48c012"
+           ControlClass="SPSIN.Store.FeatureMenu"
+           Id="SPSINFeatureMenu"/>
+  <CustomAction Title="SP SIN App Store"
+                Location="Microsoft.SharePoint.SiteSettings"
+                GroupId="SPSIN"
+               >
+    <UrlAction Url="~site/_layouts/SPSIN/Store/StoreFront.aspx"/>
+  </CustomAction>
+
+  <CustomAction RegistrationType="ContentType"
+                RegistrationId="0x00167B888A92B22E408AFA403E18D38147"
+                Location="EditControlBlock"
+                Title="Upload to SIN Store"
+                  ></CustomAction>
+</Elements>

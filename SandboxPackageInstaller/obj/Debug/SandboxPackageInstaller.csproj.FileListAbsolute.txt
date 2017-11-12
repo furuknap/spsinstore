@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SandboxPackageInstaller\bin\Debug\SPSIN.Store.SandboxPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SandboxPackageInstaller\bin\Debug\SPSIN.Store.SandboxPackageInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SandboxPackageInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SandboxPackageInstaller\obj\Debug\SPSIN.Store.SandboxPackageInstaller.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\SPSINStore\SandboxPackageInstaller\obj\Debug\SPSIN.Store.SandboxPackageInstaller.pdb
